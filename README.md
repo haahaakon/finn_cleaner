@@ -1,10 +1,11 @@
-## What
-This addon looks through all ads on your finn.no search and removes ads containing the following words in their description:
-`"dame", "dameklær", "barn", "barneklær"`
+# Finn Cleaner
 
+Automatically removes ads from finn.no search results based on their description.
+
+## What it does
+
+Filters out ads containing: `dame`, `dameklær`, `barn`, `barneklær` in the description.
 
 ## Why
-I like to look at used clothes on finn.no.
-Their current filters are dependant on users choosing the correct category. (Which many don't)
-You can do  terms like `(fjellraven or fjellreven) and not dame` to filter out based on **titles**.
-But there is no filter to look through the **description** of the ads, where some people choose to specify.
+
+Finn.no's filters only work on titles, not descriptions. Many sellers mention women's/kids clothing in the description text, which you can't filter out normally. This extension reads the full ad content to catch those cases.
