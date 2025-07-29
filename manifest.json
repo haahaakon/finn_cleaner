@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "finn.no cleaner",
+  "version": "1.0",
+
+  "description": "Cleans up the finn.no website by removing unnecessary ads.",
+
+  "icons": {
+    "48": "icons/finn_cleaner_transparant.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.finn.no/recommerce/forsale/search*"],
+      "js": ["finn_cleaner.js"]
+    }
+  ]
+}
