@@ -4,7 +4,7 @@ Automatically removes ads from finn.no search results based on their description
 
 ## What it does
 
-Filters out ads containing: `dame`, `dameklær`, `barn`, `barneklær` in the description.
+Filters out ads containing: `dame`, `dameklær`, `barn`, `barneklær`, `women`, `womens` in the description.
 
 ## Why
 

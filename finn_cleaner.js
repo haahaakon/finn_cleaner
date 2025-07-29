@@ -27,7 +27,9 @@ function iterateOverArticles(articles) {
                 if (bodyText.toLowerCase().includes("dame") || 
                 bodyText.toLowerCase().includes("dameklær") || 
                 bodyText.toLowerCase().includes("barn") || 
-                bodyText.toLowerCase().includes("barneklær")) {
+                bodyText.toLowerCase().includes("barneklær") ||
+                bodyText.toLowerCase().includes("women") ||
+                bodyText.toLowerCase().includes("womens")) {
                     console.log(`Found "dame" or "barn" in: ${link.textContent}`);
 
                     article.remove()
